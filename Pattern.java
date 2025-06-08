@@ -6,7 +6,7 @@ public class Pattern {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter value of n");
         n = sc.nextInt();
-        pattern10(n);
+        pattern13(n);
         sc.close();
     }
 
@@ -143,6 +143,47 @@ public class Pattern {
 
             
     }
+
+     public static void pattern11(int n){
+        for(int i = 0;i<n;i++){
+            int start = 1;
+            for(int j = 0;j<=i;j++){
+                System.out.print(start+" ");
+                start = 1 - start;
+            }
+            System.out.println();
+        }
+     }
+
+      public static void pattern12(int n){
+        for(int i = 0;i< n;i++){
+            for(int j = 0;j<=i;j++){
+                System.out.print(j);
+            }
+            for(int j =1;j<2*(n-1-i);j++){
+                System.out.print(" ");
+            }
+             for(int j = i;j>=0;j--){
+                System.out.print(j);
+             }
+            System.out.println();
+
+        }
+      }
+
+      public static void pattern13(int n){
+          int number = 1;
+        for(int i = 0;i<n;i++){
+            for(int j = 0;j<=i;j++){
+                System.out.print((number)+" ");
+                number ++;
+            }
+            System.out.println();
+        }
+    }
+
+
+
 }
 
 
