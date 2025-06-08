@@ -12,97 +12,97 @@ This repository contains Java programs that print various patterns using loops. 
 
 ---
 
-## 🧩 Pattern List
+## 🧬 Pattern List
 
-### 1️⃣ Pattern 1: Solid Square
-
-```
-* * * * *
-* * * * *
-* * * * *
-* * * * *
-* * * * *
-```
-
-### 2️⃣ Pattern 2: Left-Aligned Right-Angled Triangle
+### 1⃣ Pattern 1: Solid Square
 
 ```
-* 
-* * 
-* * * 
-* * * * 
+* * * * *
+* * * * *
+* * * * *
+* * * * *
 * * * * *
 ```
 
-### 3️⃣ Pattern 3: Number Triangle
+### 2⃣ Pattern 2: Left-Aligned Right-Angled Triangle
 
 ```
-1 
-1 2 
-1 2 3 
-1 2 3 4 
+*
+* *
+* * *
+* * * *
+* * * * *
+```
+
+### 3⃣ Pattern 3: Number Triangle
+
+```
+1
+1 2
+1 2 3
+1 2 3 4
 1 2 3 4 5
 ```
 
-### 4️⃣ Pattern 4: Repeated Number Triangle
+### 4⃣ Pattern 4: Repeated Number Triangle
 
 ```
-1 
-2 2 
-3 3 3 
-4 4 4 4 
+1
+2 2
+3 3 3
+4 4 4 4
 5 5 5 5 5
 ```
 
-### 5️⃣ Pattern 5: Inverted Left-Aligned Triangle
+### 5⃣ Pattern 5: Inverted Left-Aligned Triangle
 
 ```
-* * * * * 
-* * * * 
-* * * 
-* * 
+* * * * *
+* * * *
+* * *
+* *
 *
 ```
 
-### 6️⃣ Pattern 6: Inverted Number Triangle
+### 6⃣ Pattern 6: Inverted Number Triangle
 
 ```
-1 2 3 4 5 
-1 2 3 4 
-1 2 3 
-1 2 
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
 1
 ```
 
-### 7️⃣ Pattern 7: Center-Aligned Pyramid
+### 7⃣ Pattern 7: Center-Aligned Pyramid
 
 ```
     *    
    ***   
   *****  
- ******* 
+ *******
 *********
 ```
 
-### 8️⃣ Pattern 8: Inverted Center-Aligned Pyramid
+### 8⃣ Pattern 8: Inverted Center-Aligned Pyramid
 
 ```
 *********
- ******* 
+ *******
   *****  
    ***   
     *    
 ```
 
-### 9️⃣ Pattern 9: Diamond Shape
+### 9⃣ Pattern 9: Diamond Shape
 
 ```
     *    
    ***   
   *****  
- ******* 
+ *******
 *********
- ******* 
+ *******
   *****  
    ***   
     *    
@@ -111,16 +111,67 @@ This repository contains Java programs that print various patterns using loops. 
 ### 🔟 Pattern 10: Vertical Symmetric Triangle (Hourglass)
 
 ```
-* 
-* * 
-* * * 
-* * * * 
-* * * * * 
-* * * * 
-* * * 
-* * 
 *
+* *
+* * *
+* * * *
+* * * * *
+* * * *
+* * *
+* *
+*
+```
+
+### 1⃣1⃣ Pattern 11: Left-Aligned Number Pyramid
+
+```
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+```
+
+### 1⃣2⃣ Pattern 12: Symmetric Number Arrow
+
+```
+0        0
+01      10
+012    210
+0123  3210
+0123443210
+```
+
+### 1⃣3⃣ Pattern 13: Alphabet Triangle
+
+```
+A
+B C
+D E F
+G H I J
+K L M N O
+```
+
+### 1⃣4⃣ Pattern 14: Right-Aligned Alphabet Pyramid
+
+```
+    A
+   AB
+  ABC
+ ABCD
+ABCDE
+```
+
+### 1⃣5⃣ Pattern 15: Reverse Alphabet Triangle
+
+```
+E
+E D
+E D C
+E D C B
+E D C B A
 ```
 
 ---
 
+> 🎯 You can test any pattern by calling its respective method in `main()` and passing the required value of `n`. Happy coding!
